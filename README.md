@@ -1,4 +1,10 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## 機能
+
+このプロジェクトには以下のサーバーサイド処理機能が実装されています：
+
+- **API Routes**: `/api/users` - ユーザーデータの取得・作成 API
+- **Server Actions**: フォーム処理とレポート生成
+- **ダッシュボード**: `/dashboard` - サーバーサイド処理のテスト画面
 
 ## Getting Started
 
@@ -17,6 +23,8 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+サーバーサイド処理のテストは [http://localhost:3000/dashboard](http://localhost:3000/dashboard) で確認できます。
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
